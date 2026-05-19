@@ -1,10 +1,14 @@
+![Python](https://img.shields.io/badge/Python-3.8%2B-blue?logo=python&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-1.0%2B-orange?logo=scikit-learn&logoColor=white)
+![Status](https://img.shields.io/badge/Status-Complete-brightgreen)
+![Advanced](https://img.shields.io/badge/Complexity-Advanced-red)
+
 Buenos Aires Real Estate Price Prediction
 ==========================================
 
 Comprehensive real estate analysis with progressive complexity: from linear regression to advanced regularization techniques, feature selection methods, and ensemble stacking.
 
-Project Overview
-----------------
+## Project Overview
 
 Analyzed 5 datasets of Capital Federal (Buenos Aires) apartments to predict prices. The analysis progresses through four main phases:
 
@@ -47,8 +51,7 @@ Analyzed 5 datasets of Capital Federal (Buenos Aires) apartments to predict pric
 - Ensemble blending to combine complementary model strengths
 - Performance comparison across all approaches
 
-Dataset Details
-----------------
+## Dataset Details
 
 **Filtering Criteria:**
 - Location: Capital Federal (Buenos Aires)
@@ -58,8 +61,7 @@ Dataset Details
 
 **Final Dataset:** ~5,000 apartments with multiple structural and geographic features
 
-Key Competencies Demonstrated
------------------------------
+## Key Competencies Demonstrated
 
 **Regularization Understanding**
 - Ridge and Lasso trade-offs
@@ -85,8 +87,7 @@ Key Competencies Demonstrated
 - Meta-learner optimization
 - Understanding ensemble strength through diversity
 
-Project Structure
------------------
+## Project Structure
 ```
 buenos-aires-real-estate/
 ├── task_1.py                     # Simple linear regression
@@ -99,8 +100,7 @@ buenos-aires-real-estate/
 └── README.md
 ```
 
-How to Run
-----------
+## How to Run
 
 1. **Install dependencies:**
    ```bash
@@ -134,8 +134,7 @@ How to Run
    ```
    Generates: `stacking_model_comparison.png`
 
-Key Results
------------
+## Key Results
 
 **Regularization Impact:**
 - Ridge reduces overfitting while retaining all features
@@ -154,8 +153,7 @@ Key Results
 - Combining linear and tree-based models captures complementary patterns
 - Ridge meta-learner effectively weights base model predictions
 
-Technologies Used
------------------
+## Technologies Used
 - **Data Processing:** pandas, numpy
 - **Machine Learning:** scikit-learn
 - **Regularization:** Ridge, Lasso, ElasticNet from sklearn.linear_model
@@ -163,14 +161,18 @@ Technologies Used
 - **Visualization:** matplotlib, seaborn
 - **Encoding:** category_encoders OneHotEncoder
 
-Lessons Learned
----------------
+## Lessons Learned
 
 1. **Regularization is crucial** for preventing overfitting and improving generalization
 2. **Feature selection methods each tell different stories** - use multiple approaches
 3. **Ensemble methods work best with diverse base learners** - combining different model families
 4. **Cross-validation is essential** for honest performance estimates
 5. **Hyperparameter tuning** is more important than algorithm choice for real data
+
+## References
+- Regularization techniques: Hastie, T., Tibshirani, R., & Friedman, J. (2009). Elements of Statistical Learning
+- Feature selection: Guyon, I., & Elisseeff, A. (2003). An introduction to variable and feature selection
+- Ensemble methods: Breiman, L. (1996). Bagging predictors; Schapire, R. E. (1990). The Strength of Weak Learnability
 
 ---
 
